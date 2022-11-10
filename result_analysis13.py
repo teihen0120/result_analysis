@@ -10,10 +10,6 @@ class wb(object):
         wb["Sheet"].title = "Sheet1"
         return wb
 
-        
-workbook = wb("dsfa")
-print(workbook.name)
-workbook.save(save_tyousa_path + "//" + "test.xlsx")
 class Person(object):
     def __init__(self):
         print("first")
